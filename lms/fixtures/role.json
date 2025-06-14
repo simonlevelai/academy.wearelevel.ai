@@ -1,0 +1,12 @@
+[
+ {
+  "doctype": "Role",
+  "name": "LMS Organization Admin",
+  "is_custom": 1,
+  "desk_access": 1,
+  "home_page": null,
+  "restrict_to_domain": null,
+  "two_factor_auth": 0,
+  "disabled": 0
+ }
+]

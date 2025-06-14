@@ -430,6 +430,12 @@ export function getSidebarLinks() {
 			activeFor: ['Batches', 'BatchDetail', 'Batch', 'BatchForm'],
 		},
 		{
+			label: 'Impact Stories',
+			icon: 'Heart',
+			to: 'ImpactStories',
+			activeFor: ['ImpactStories'],
+		},
+		{
 			label: 'Certified Members',
 			icon: 'GraduationCap',
 			to: 'CertifiedParticipants',

@@ -17,6 +17,21 @@ const routes = [
 		component: () => import('@/pages/Courses.vue'),
 	},
 	{
+		path: '/impact-stories',
+		name: 'ImpactStories',
+		component: () => import('@/pages/ImpactStories.vue'),
+	},
+	{
+		path: '/organization-signup',
+		name: 'OrganizationSignup',
+		component: () => import('@/pages/OrganizationSignup.vue'),
+	},
+	{
+		path: '/team-management',
+		name: 'TeamManagement',
+		component: () => import('@/pages/TeamManagement.vue'),
+	},
+	{
 		path: '/courses/:courseName',
 		name: 'CourseDetail',
 		component: () => import('@/pages/CourseDetail.vue'),

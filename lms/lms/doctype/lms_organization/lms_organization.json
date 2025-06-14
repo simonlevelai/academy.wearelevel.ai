@@ -1,0 +1,219 @@
+{
+ "actions": [],
+ "autoname": "field:organization_name",
+ "creation": "2025-06-14 17:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_info_section",
+  "organization_name",
+  "organization_type",
+  "organization_description",
+  "column_break_1",
+  "website",
+  "charity_registration_number",
+  "sector",
+  "contact_info_section",
+  "primary_contact_name",
+  "primary_contact_email",
+  "column_break_2",
+  "phone_number",
+  "address",
+  "country",
+  "team_settings_section",
+  "team_size",
+  "max_learners",
+  "column_break_3",
+  "admin_user",
+  "status",
+  "settings_section",
+  "enable_team_reporting",
+  "custom_branding",
+  "column_break_4",
+  "ai_focus_areas",
+  "learning_goals"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_info_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
+  },
+  {
+   "fieldname": "organization_name",
+   "fieldtype": "Data",
+   "label": "Organization Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "organization_type",
+   "fieldtype": "Select",
+   "label": "Organization Type",
+   "options": "Charity\nSocial Enterprise\nB-Corp\nNon-Profit\nCommunity Group\nThink Tank\nEducational Institution\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "organization_description",
+   "fieldtype": "Text",
+   "label": "Organization Description"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website URL"
+  },
+  {
+   "fieldname": "charity_registration_number",
+   "fieldtype": "Data",
+   "label": "Charity/Registration Number"
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Select",
+   "label": "Primary Sector",
+   "options": "Healthcare\nEducation\nEnvironment\nSocial Justice\nPoverty & Homelessness\nMental Health\nChildren & Youth\nElderly Care\nDisability Support\nArts & Culture\nCommunity Development\nOther"
+  },
+  {
+   "fieldname": "contact_info_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Information"
+  },
+  {
+   "fieldname": "primary_contact_name",
+   "fieldtype": "Data",
+   "label": "Primary Contact Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "primary_contact_email",
+   "fieldtype": "Data",
+   "label": "Primary Contact Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "team_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Team Settings"
+  },
+  {
+   "fieldname": "team_size",
+   "fieldtype": "Select",
+   "label": "Current Team Size",
+   "options": "1-5\n6-20\n21-50\n51-100\n100+"
+  },
+  {
+   "fieldname": "max_learners",
+   "fieldtype": "Int",
+   "label": "Maximum Learners",
+   "default": "10"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "admin_user",
+   "fieldtype": "Link",
+   "label": "Organization Administrator",
+   "options": "User"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nPending\nSuspended",
+   "default": "Pending"
+  },
+  {
+   "fieldname": "settings_section",
+   "fieldtype": "Section Break",
+   "label": "Organization Settings"
+  },
+  {
+   "fieldname": "enable_team_reporting",
+   "fieldtype": "Check",
+   "label": "Enable Team Progress Reporting",
+   "default": "1"
+  },
+  {
+   "fieldname": "custom_branding",
+   "fieldtype": "Check",
+   "label": "Enable Custom Organization Branding"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ai_focus_areas",
+   "fieldtype": "Text",
+   "label": "AI Focus Areas"
+  },
+  {
+   "fieldname": "learning_goals",
+   "fieldtype": "Text",
+   "label": "Learning Goals"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-14 17:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "LMS",
+ "name": "LMS Organization",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "LMS Organization Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
