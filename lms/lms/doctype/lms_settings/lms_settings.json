@@ -30,6 +30,14 @@
   "user_category",
   "disable_signup",
   "custom_signup_content",
+  "social_login_section",
+  "enable_google_login",
+  "google_client_id",
+  "google_client_secret",
+  "column_break_social",
+  "enable_microsoft_login",
+  "microsoft_client_id",
+  "microsoft_client_secret",
   "sidebar_tab",
   "items_in_sidebar_section",
   "courses",
@@ -405,6 +413,51 @@
    "fieldname": "certified_members",
    "fieldtype": "Check",
    "label": "Certified Members"
+  },
+  {
+   "fieldname": "social_login_section",
+   "fieldtype": "Section Break",
+   "label": "Social Login"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_google_login",
+   "fieldtype": "Check",
+   "label": "Enable Google Login"
+  },
+  {
+   "depends_on": "enable_google_login",
+   "fieldname": "google_client_id",
+   "fieldtype": "Data",
+   "label": "Google Client ID"
+  },
+  {
+   "depends_on": "enable_google_login",
+   "fieldname": "google_client_secret",
+   "fieldtype": "Password",
+   "label": "Google Client Secret"
+  },
+  {
+   "fieldname": "column_break_social",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_microsoft_login",
+   "fieldtype": "Check",
+   "label": "Enable Microsoft Login"
+  },
+  {
+   "depends_on": "enable_microsoft_login",
+   "fieldname": "microsoft_client_id",
+   "fieldtype": "Data",
+   "label": "Microsoft Client ID"
+  },
+  {
+   "depends_on": "enable_microsoft_login",
+   "fieldname": "microsoft_client_secret",
+   "fieldtype": "Password",
+   "label": "Microsoft Client Secret"
   }
  ],
  "grid_page_length": 50,
