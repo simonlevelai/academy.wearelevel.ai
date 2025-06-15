@@ -1,0 +1,465 @@
+/* Level AI Academy Custom Theme */
+/* Based on Level.ai Brand Guidelines */
+
+:root {
+  /* Level.ai Brand Colors */
+  --color-earthstone: #293f3b;
+  --color-sunshine: #feda00;
+  --color-terra: #296b42;
+  --color-coral: #ff7f7a;
+  --color-background: #fafafa;
+  --color-surface: #ffffff;
+  --color-border: #e5e5e5;
+  --color-text-light: #666666;
+  
+  /* Typography */
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-heading: 'Concert One', cursive;
+  --font-code: 'Source Code Pro', monospace;
+  
+  /* Design System */
+  --border-radius: 8px;
+  --shadow-subtle: 0 1px 3px rgba(0,0,0,0.1);
+  --spacing-unit: 1.5rem;
+  --transition-default: 200ms ease-out;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Concert+One&family=Source+Code+Pro:wght@400;500;600&display=swap');
+
+/* Global Typography */
+body {
+  font-family: var(--font-body) !important;
+  color: var(--color-earthstone) !important;
+  background-color: var(--color-background) !important;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: var(--color-earthstone) !important;
+  font-weight: 600;
+}
+
+h1, .h1 {
+  font-family: var(--font-heading) !important;
+  font-size: 2.5rem;
+  font-weight: 400 !important;
+}
+
+h2, .h2 {
+  font-family: var(--font-body) !important;
+  font-size: 2rem;
+  font-weight: 700 !important;
+}
+
+h3, .h3 {
+  font-family: var(--font-body) !important;
+  font-size: 1.5rem;
+  font-weight: 600 !important;
+}
+
+/* Level AI Academy Logo/Title */
+.navbar-brand,
+.site-title,
+.app-name {
+  font-family: var(--font-heading) !important;
+  color: var(--color-earthstone) !important;
+  font-weight: 400 !important;
+}
+
+/* Navigation */
+.navbar,
+.navbar-light {
+  background-color: var(--color-surface) !important;
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-subtle);
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-earthstone) !important;
+  font-weight: 500;
+  transition: var(--transition-default);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background-color: var(--color-sunshine) !important;
+  color: var(--color-earthstone) !important;
+  border-radius: var(--border-radius);
+}
+
+/* Buttons - Level.ai Brand Guidelines */
+.btn,
+.btn-primary,
+button[type="submit"],
+.primary-action {
+  background-color: var(--color-coral) !important;
+  border-color: var(--color-coral) !important;
+  color: var(--color-earthstone) !important;
+  font-weight: 500;
+  border-radius: var(--border-radius);
+  transition: var(--transition-default);
+  min-height: 44px;
+  padding: 12px 24px;
+}
+
+.btn:hover,
+.btn-primary:hover,
+button[type="submit"]:hover {
+  background-color: #ff6b66 !important;
+  border-color: #ff6b66 !important;
+  color: var(--color-earthstone) !important;
+  transform: translateY(-1px);
+}
+
+.btn-secondary,
+.btn-outline-primary {
+  background-color: transparent !important;
+  border: 2px solid var(--color-earthstone) !important;
+  color: var(--color-earthstone) !important;
+}
+
+.btn-secondary:hover,
+.btn-outline-primary:hover {
+  background-color: var(--color-earthstone) !important;
+  color: var(--color-surface) !important;
+}
+
+.btn-success {
+  background-color: var(--color-terra) !important;
+  border-color: var(--color-terra) !important;
+  color: white !important;
+}
+
+/* Cards and Containers */
+.card,
+.content-card,
+.course-card {
+  background-color: var(--color-surface) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-subtle);
+  transition: var(--transition-default);
+}
+
+.card:hover,
+.course-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card-header {
+  background-color: var(--color-background) !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  color: var(--color-earthstone) !important;
+  font-weight: 600;
+}
+
+/* Course Level Color Coding */
+.level-1,
+.course-level-1 {
+  border-left: 4px solid var(--color-sunshine) !important;
+}
+
+.level-2,
+.course-level-2 {
+  border-left: 4px solid var(--color-terra) !important;
+}
+
+.level-3,
+.course-level-3 {
+  border-left: 4px solid var(--color-coral) !important;
+}
+
+.level-4,
+.course-level-4 {
+  border-left: 4px solid var(--color-earthstone) !important;
+}
+
+.level-5,
+.course-level-5 {
+  border-left: 4px solid #1a4d2e !important;
+}
+
+/* Progress Indicators */
+.progress {
+  background-color: var(--color-border) !important;
+  border-radius: var(--border-radius);
+}
+
+.progress-bar {
+  background-color: var(--color-terra) !important;
+  transition: var(--transition-default);
+}
+
+/* Badges */
+.badge-success,
+.completion-badge {
+  background-color: var(--color-terra) !important;
+  color: white !important;
+}
+
+.badge-warning,
+.in-progress-badge {
+  background-color: var(--color-sunshine) !important;
+  color: var(--color-earthstone) !important;
+}
+
+.badge-info,
+.level-badge {
+  background-color: var(--color-coral) !important;
+  color: var(--color-earthstone) !important;
+}
+
+/* Forms */
+.form-control,
+.form-select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  border: 2px solid var(--color-border) !important;
+  border-radius: var(--border-radius);
+  padding: 12px 16px;
+  transition: var(--transition-default);
+}
+
+.form-control:focus,
+.form-select:focus,
+input:focus,
+textarea:focus {
+  border-color: var(--color-coral) !important;
+  box-shadow: 0 0 0 3px rgba(255, 127, 122, 0.1) !important;
+  outline: none;
+}
+
+.form-label,
+label {
+  color: var(--color-earthstone) !important;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+/* Learning Path Visualization */
+.learning-path .step {
+  background-color: var(--color-border);
+  color: var(--color-text-light);
+  border-radius: 50%;
+  transition: var(--transition-default);
+}
+
+.learning-path .step.completed {
+  background-color: var(--color-terra) !important;
+  color: white !important;
+}
+
+.learning-path .step.current {
+  background-color: var(--color-coral) !important;
+  color: var(--color-earthstone) !important;
+  animation: pulse 2s infinite;
+}
+
+.learning-path .step.available {
+  background-color: var(--color-sunshine) !important;
+  color: var(--color-earthstone) !important;
+}
+
+/* Course Cards */
+.course-thumbnail {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  overflow: hidden;
+}
+
+.course-title {
+  font-weight: 600 !important;
+  color: var(--color-earthstone) !important;
+  margin-bottom: 8px;
+}
+
+.course-description {
+  color: var(--color-text-light) !important;
+  line-height: 1.5;
+}
+
+.course-meta {
+  font-size: 0.875rem;
+  color: var(--color-text-light) !important;
+}
+
+/* Sidebar and Navigation */
+.sidebar {
+  background-color: var(--color-surface) !important;
+  border-right: 1px solid var(--color-border);
+}
+
+.sidebar .nav-link {
+  color: var(--color-earthstone) !important;
+  padding: 12px 16px;
+  border-radius: var(--border-radius);
+  margin-bottom: 4px;
+  transition: var(--transition-default);
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background-color: var(--color-sunshine) !important;
+  color: var(--color-earthstone) !important;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-earthstone) !important;
+  color: var(--color-surface) !important;
+  padding: 2rem 0;
+}
+
+.footer a {
+  color: var(--color-sunshine) !important;
+}
+
+.footer a:hover {
+  color: var(--color-surface) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1, .h1 {
+    font-size: 2rem;
+  }
+  
+  h2, .h2 {
+    font-size: 1.5rem;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 127, 122, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 127, 122, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 127, 122, 0);
+  }
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus indicators for keyboard navigation */
+*:focus {
+  outline: 2px solid var(--color-coral) !important;
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --color-earthstone: #000000;
+    --color-background: #ffffff;
+    --color-border: #000000;
+  }
+}
+
+/* Custom utility classes */
+.text-earthstone {
+  color: var(--color-earthstone) !important;
+}
+
+.text-sunshine {
+  color: var(--color-sunshine) !important;
+}
+
+.text-terra {
+  color: var(--color-terra) !important;
+}
+
+.text-coral {
+  color: var(--color-coral) !important;
+}
+
+.bg-earthstone {
+  background-color: var(--color-earthstone) !important;
+}
+
+.bg-sunshine {
+  background-color: var(--color-sunshine) !important;
+}
+
+.bg-terra {
+  background-color: var(--color-terra) !important;
+}
+
+.bg-coral {
+  background-color: var(--color-coral) !important;
+}
+
+/* Special styling for Level AI Academy branding */
+.academy-title {
+  font-family: var(--font-heading) !important;
+  color: var(--color-earthstone) !important;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.academy-subtitle {
+  color: var(--color-text-light) !important;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.level-indicator {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.level-indicator.level-1 {
+  background-color: var(--color-sunshine);
+  color: var(--color-earthstone);
+}
+
+.level-indicator.level-2 {
+  background-color: var(--color-terra);
+  color: white;
+}
+
+.level-indicator.level-3 {
+  background-color: var(--color-coral);
+  color: var(--color-earthstone);
+}
+
+.level-indicator.level-4 {
+  background-color: var(--color-earthstone);
+  color: white;
+}
+
+.level-indicator.level-5 {
+  background-color: #1a4d2e;
+  color: white;
+}
