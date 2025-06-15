@@ -1,0 +1,322 @@
+{
+  "course": {
+    "title": "Level 1: AI Foundations - Understanding AI: From Buzzword to Breakthrough",
+    "short_introduction": "Complete beginner's guide to AI for charity and social enterprise staff. Learn what AI really is, how it can help your mission, and build essential AI literacy.",
+    "description": "This foundational course introduces AI concepts specifically for charity and social enterprise professionals. No technical background required - just curiosity about how AI can enhance your mission-driven work.",
+    "level": 1,
+    "duration": "2-4 weeks (8-12 hours total)",
+    "target_audience": "Complete beginners, all staff levels",
+    "prerequisites": "None",
+    "learning_outcomes": [
+      "Clear understanding of AI fundamentals and real-world applications",
+      "Ability to identify AI opportunities in charity work",
+      "Knowledge of ethical AI principles and responsible use",
+      "Confidence to engage in AI discussions and planning",
+      "Readiness to progress to Level 2: AI User Competency"
+    ]
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "Week 1: What Actually Is AI?",
+      "description": "Demystify AI and understand what it really means for your charity work",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "title": "AI Demystified - Understanding AI in Plain English",
+          "type": "Video + Interactive Exercise",
+          "duration": "15 minutes",
+          "content": {
+            "video_script": "AI isn't robots taking over the world—it's actually much more mundane and much more useful than that. Think of AI as a very good pattern-spotter. If you show it enough examples of something, it gets brilliant at recognising similar things later. Three types you'll actually encounter: 1) Simple AI - Like spell-check or Netflix recommendations, 2) Smart AI - Like ChatGPT or voice assistants, 3) Fancy AI - Like medical diagnosis or climate modelling. For your charity? You'll mainly use type 2. Bottom line: AI is a powerful tool that can help you do your job better, faster, and sometimes more creatively.",
+            "interactive_exercise": "Drag-and-drop: Match AI examples to categories (Simple/Smart/Fancy AI)",
+            "reflection_questions": [
+              "What AI tools do you already use in your daily life without realising?",
+              "How might pattern recognition help your charity's work?",
+              "What's one AI myth you believed before this lesson?"
+            ]
+          }
+        },
+        {
+          "lesson_number": "1.2", 
+          "title": "AI in the Wild - How Charities Are Actually Using AI",
+          "type": "Case Studies + Worksheet",
+          "duration": "20 minutes",
+          "content": {
+            "case_studies": [
+              {
+                "organisation": "Crisis Homeless Charity",
+                "challenge": "Limited outreach resources, need to prioritise which rough sleepers to help first",
+                "ai_solution": "Predictive analytics to identify highest-risk individuals",
+                "result": "40% improvement in engagement rates",
+                "lesson": "AI helps prioritise human resources for maximum impact"
+              },
+              {
+                "organisation": "Age UK",
+                "challenge": "Overwhelming number of common queries taking staff time from complex cases", 
+                "ai_solution": "Chatbot for 24/7 basic information and signposting",
+                "result": "Staff freed up for meaningful human connections",
+                "lesson": "AI handles routine so humans can focus on what matters"
+              },
+              {
+                "organisation": "The National Trust",
+                "challenge": "Thousands of historical documents need digitising and searching",
+                "ai_solution": "Automated transcription and content recognition", 
+                "result": "Decades of work reduced to months",
+                "lesson": "AI accelerates time-consuming but important tasks"
+              }
+            ],
+            "worksheet": {
+              "title": "AI Opportunity Spotter for Your Organisation",
+              "questions": [
+                "What task do you do repeatedly that feels time-consuming?",
+                "How much time does this take per week?",
+                "Could pattern recognition help with this task?",
+                "What would you do with that time if it was freed up?",
+                "What questions do people ask your organisation repeatedly?",
+                "How could instant, accurate answers help your beneficiaries?",
+                "What complex conversations need human empathy and judgement?"
+              ]
+            }
+          }
+        }
+      ],
+      "assessment": {
+        "type": "Knowledge Check Quiz",
+        "questions": [
+          {
+            "question": "What is the best description of AI?",
+            "type": "multiple_choice",
+            "options": ["Robots that will replace humans", "A very good pattern-spotter", "Magic technology", "Only for tech companies"],
+            "correct_answer": "A very good pattern-spotter"
+          },
+          {
+            "question": "Which type of AI are charities most likely to use day-to-day?",
+            "type": "multiple_choice", 
+            "options": ["Simple AI (like spell-check)", "Smart AI (like ChatGPT)", "Fancy AI (like medical diagnosis)", "No AI at all"],
+            "correct_answer": "Smart AI (like ChatGPT)"
+          },
+          {
+            "question": "What pattern do successful charity AI implementations share?",
+            "type": "multiple_choice",
+            "options": ["They replace human workers", "They handle repetitive tasks so humans focus on impact", "They make decisions without human oversight", "They're only for large organisations"],
+            "correct_answer": "They handle repetitive tasks so humans focus on impact"
+          }
+        ]
+      }
+    },
+    {
+      "chapter_number": 2,
+      "title": "Week 2: What AI Can and Cannot Do",
+      "description": "Understanding AI's superpowers and limitations to use it effectively and safely",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "title": "AI Superpowers - What AI Does Brilliantly",
+          "type": "Interactive Demo + Hands-on Exercise",
+          "duration": "25 minutes",
+          "content": {
+            "ai_superpowers": [
+              "Pattern recognition in large datasets",
+              "24/7 availability for routine queries",
+              "Consistent quality output",
+              "Processing multiple languages",
+              "Rapid content generation and editing",
+              "Analysing sentiment and feedback themes"
+            ],
+            "hands_on_exercise": "Guided ChatGPT exercise: Write a volunteer recruitment email for your charity",
+            "structured_prompts": [
+              "Write a volunteer recruitment email for [your charity type] targeting [audience] with [specific skills needed]",
+              "Make it [tone: professional/friendly/urgent] and include [key benefits of volunteering]",
+              "Keep it under [word count] and include a clear call to action"
+            ]
+          }
+        },
+        {
+          "lesson_number": "2.2",
+          "title": "AI Limitations and Risks - When AI Gets It Wrong",
+          "type": "Video + Interactive Scenarios",
+          "duration": "20 minutes",
+          "content": {
+            "video_script": "AI isn't perfect. In fact, it can be spectacularly wrong sometimes. Here's what you need to watch for: 1) Hallucinations - AI confidently making things up, 2) Bias - AI reflecting unfair assumptions from its training data, 3) Context blindness - Missing nuance that seems obvious to humans, 4) Data dependency - Only as good as what it's learned from. The good news? Awareness is 90% of the solution. Always verify, especially for important decisions. Think of AI as a brilliant but slightly unreliable intern—incredibly useful, but you'd never let them write to major donors unsupervised.",
+            "interactive_scenarios": [
+              {
+                "scenario": "AI suggests scheduling a fundraising campaign during a national tragedy",
+                "question": "What's the problem and how would you fix it?",
+                "lesson": "AI lacks contextual awareness of current events and social sensitivity"
+              },
+              {
+                "scenario": "AI-generated grant application includes fake statistics and citations",
+                "question": "What verification steps should you take?",
+                "lesson": "Always fact-check AI output, especially for formal documents"
+              },
+              {
+                "scenario": "CV screening AI consistently rejects applicants from certain postcodes",
+                "question": "What bias might be present and how would you address it?",
+                "lesson": "AI can perpetuate historical biases present in training data"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "Week 3: Ethics and Responsible Use",
+      "description": "Building an ethical framework for AI use in purpose-driven organisations",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "title": "AI Ethics for Good Organisations",
+          "type": "Framework + Ethical Dilemma Workshop",
+          "duration": "30 minutes",
+          "content": {
+            "ethical_principles": [
+              "Transparency: Your beneficiaries should know when they're interacting with AI",
+              "Fairness: AI shouldn't perpetuate discrimination—it should help break it down",
+              "Privacy: Beneficiary data deserves extra protection, not less",
+              "Human dignity: AI should enhance human relationships, not replace them",
+              "Mission alignment: AI should amplify your impact, not compromise your values"
+            ],
+            "red_flags": [
+              "AI making decisions about people's lives without human oversight",
+              "Using beneficiary data to train AI without proper consent",
+              "Automating away the human touch that defines your work",
+              "AI systems that you can't explain to stakeholders"
+            ],
+            "ethical_dilemmas": [
+              {
+                "dilemma": "Your AI tool could help identify at-risk young people, but requires collecting sensitive personal data",
+                "discussion_points": ["Consent and privacy", "Potential benefits vs risks", "Human oversight requirements", "Data security measures"]
+              },
+              {
+                "dilemma": "An AI writing tool could help create grant applications faster, but might sound less authentic",
+                "discussion_points": ["Authenticity in fundraising", "Efficiency vs genuineness", "Disclosure to funders", "Maintaining your voice"]
+              }
+            ]
+          }
+        },
+        {
+          "lesson_number": "3.2",
+          "title": "Data Protection and Privacy",
+          "type": "GDPR Compliance Guide + Privacy Impact Assessment",
+          "duration": "25 minutes",
+          "content": {
+            "gdpr_key_points": [
+              "Lawful basis for processing personal data with AI",
+              "Data minimisation - only use what you need",
+              "Purpose limitation - stick to original consent",
+              "Right to explanation for automated decisions",
+              "Data portability and deletion rights"
+            ],
+            "privacy_impact_assessment": {
+              "template": "Simple PIA template for charity AI projects",
+              "key_questions": [
+                "What personal data will the AI system process?",
+                "What is the lawful basis for this processing?",
+                "Could this create bias or discrimination risks?", 
+                "How will you ensure data accuracy and security?",
+                "What rights do data subjects have?",
+                "How will you monitor and audit the system?"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "Week 4: Building Your AI Foundation",
+      "description": "Creating your personal and organisational AI strategy and next steps",
+      "lessons": [
+        {
+          "lesson_number": "4.1",
+          "title": "Creating Your AI Strategy",
+          "type": "Strategy Workshop + Action Planning",
+          "duration": "35 minutes",
+          "content": {
+            "strategy_framework": {
+              "mission_alignment": "How can AI amplify our charitable mission?",
+              "quick_wins": "What low-risk, high-impact AI applications can we try first?",
+              "capacity_building": "What skills and knowledge do we need to develop?",
+              "ethical_boundaries": "What are our non-negotiables when it comes to AI use?",
+              "success_metrics": "How will we measure whether AI is helping or hindering our work?"
+            },
+            "readiness_checklist": [
+              "Leadership buy-in and understanding",
+              "Basic digital literacy across the team",
+              "Clear data governance policies",
+              "Budget for training and tools",
+              "Time allocated for experimentation",
+              "Commitment to ethical AI principles"
+            ],
+            "action_planning_template": {
+              "30_day_goals": "What will you explore or try in the next month?",
+              "90_day_goals": "What skills or pilots will you develop in 3 months?",
+              "6_month_vision": "Where do you want your AI knowledge and usage to be?"
+            }
+          }
+        },
+        {
+          "lesson_number": "4.2",
+          "title": "Next Steps and Progression",
+          "type": "Assessment + Learning Path Planning", 
+          "duration": "20 minutes",
+          "content": {
+            "level1_recap": [
+              "✅ AI fundamentals and real-world applications",
+              "✅ Understanding of capabilities and limitations", 
+              "✅ Ethical framework for responsible AI use",
+              "✅ Personal AI strategy and action plan"
+            ],
+            "readiness_for_level2": {
+              "knowledge_check": "Can you explain AI to a colleague?",
+              "confidence_check": "Do you feel ready to try AI tools hands-on?",
+              "application_check": "Have you identified AI opportunities in your work?",
+              "ethics_check": "Can you spot potential AI risks and mitigation strategies?"
+            },
+            "level2_preview": {
+              "title": "Level 2: AI User Competency - From Observer to Operator",
+              "what_youll_learn": [
+                "Hands-on mastery of AI tools like ChatGPT, Claude, and others",
+                "The art of prompt engineering for better results",
+                "Quality control and fact-checking AI output",
+                "Building AI into your daily workflow"
+              ],
+              "who_its_for": "Staff who will use AI tools regularly in their work"
+            }
+          }
+        }
+      ],
+      "final_assessment": {
+        "type": "Comprehensive Project",
+        "title": "AI Impact Analysis for Your Organisation",
+        "description": "Evaluate one specific AI opportunity for your charity or social enterprise",
+        "requirements": [
+          "Identify a specific challenge or opportunity in your organisation",
+          "Research how AI could help address this challenge",
+          "Analyse the benefits, risks, and ethical considerations",
+          "Create a simple implementation plan with success metrics",
+          "Present your findings in a 2-page summary"
+        ],
+        "assessment_criteria": [
+          "Clear problem identification and understanding",
+          "Realistic assessment of AI potential and limitations",
+          "Thorough consideration of ethical implications",
+          "Practical implementation approach",
+          "Clear communication suitable for non-technical stakeholders"
+        ]
+      }
+    }
+  ],
+  "course_completion": {
+    "certificate": "Level 1: AI Foundations Certificate",
+    "badge": "AI Foundation Explorer",
+    "progression": "Eligible for Level 2: AI User Competency",
+    "continuing_support": [
+      "Alumni network access",
+      "Monthly AI update newsletters",
+      "Quarterly virtual meetups",
+      "Resource library access"
+    ]
+  }
+}
